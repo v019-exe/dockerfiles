@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ubuntu-server:
+    image: ubuntu:latest
+    container_name: ubuntu-server
+    ports:
+      - "9090:9090"
+    command: sleep infinity
